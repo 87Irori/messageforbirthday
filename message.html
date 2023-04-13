@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>大切な人へのメッセージ</title>
+  <link rel="stylesheet" href="message.css">
+</head>
+<body>
+  <h1>
+    誕生日の大切な人へ感動的なメッセージ生み出しメーカー
+  </h1>
+  <h3>
+    大切な人に誕生日のメッセージを送りたいけど、感動的でちょうどいい文章量のメッセージが思い浮かばない方も多いのではないでしょうか？そこで、この機能では『たった数個の項目を入力するだけ』で誰でも簡単に大切な人への感動的な誕生日メッセージが作れます！！
+  </h3>
+  <div id="result-area"></div>
+<script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer">
+</script>
+  </div>
+  <p>
+    入力する項目は以下の6つ!
+  </p>
+  <ol>
+    <li>出会った日</li>
+    <li>呼び方</li>
+    <li>初めて会った時の気持ち</li>
+    <li>その人との一番の思い出</li>
+    <li>その人の好きなところ</li>
+    <li>その人への今の気持ち・最後に一言</li>
+  </ol>
+
+  <p>早速作成していこう！</p>
+  <ol>
+    <li>出会った日</li>
+    <label for="date-input">日付を選択:</label>
+<input type="date" id="date-input">
+
+
+    <li>呼び方</li>
+    <input type="text" id="name" size="20" maxlength="10" >
+    <li>初めて会った時の気持ち(100字まで)</li>
+    <input type="text" id="firstMoment" size="60" maxlength="100">
+    <li>その人との一番の思い出(100字まで)</li>
+    <input type=" text" id="bestMemory" size="60" maxlength="100">
+    <li>その人の好きなところ(100字まで)</li>
+    <input type="text" id="like" size="60" maxlength="100">
+    <li>その人への今の気持ち・最後に一言(100字まで/句点なし)</li>
+    <input type="text" id="myFeeling" size="60" maxlength="100">
+  </ol>
+   <div id="sakusei" class="button_solid016">
+      <a href="#">メッセージ作成<i class="fas fa-angle-right fa-position-right"></i></a>
+   </div>
+   <div class="bg_pattern Paper"></div>
+   <div class="section">
+   </div>
+  <script src="message.js"></script>
+</body>
+</html>
